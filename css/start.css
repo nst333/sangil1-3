@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #2196f3, #ff4685);
+    overflow-y: hidden;
+}
+
+.content
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.content img
+{
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    
+    object-fit: cover;
+}
+
+a img
+{
+    position: absolute;;
+    top: 1vh;
+    left: 1vw;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+}
